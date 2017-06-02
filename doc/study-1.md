@@ -13,18 +13,19 @@
 3. ts-node: `npm install -g ts-node`
 
 ## 说明一下
-1. tsc 为 typescript 的编绎绎，它能把 typescript 编绎成 js。
-2. typings 为下截别人标好的类型说明。
-3. ts-node 为开发环境中不用编绎成 js 直接运行 typescript 环境。
+1. `tsc` 为 typescript 的编绎绎，它能把 `typescript` 编绎成 `js`。
+2. `typings` 为下截别人标好的类型说明。
+3. `ts-node` 为开发环境中不用把 `.ts` 编绎成 `js`, 直接运行 `typescript` 环境。
 
 # 如何使用
 ## 新项目，这里指的项目都使用typecript进行开发
 
-1. 新建文件夹：'mkdir ts-test && cd ts-test`。
+1. 新建文件夹：`mkdir ts-test && cd ts-test`。
 2. 初始化 `node` 项目：`npm init`。
-3. 设置初始化 'tsc --init'，会生成一个 `tsconfig.json` 文件，这个文件很重要，就是 `tsc` 的配置文件，内容下面会说。
-4. 运行版本控制：'git init'，`git add -A`, `git commit -m "init"`。
+3. 设置初始化 `tsc --init`，会生成一个 `tsconfig.json` 文件，这个文件很重要，就是 `tsc` 的配置文件，内容下面会说。
+4. 运行版本控制：`git init`，`git add -A`, `git commit -m "init"`。
 3. 新建一个文件 `test.ts` 文件
+
 ```typescript
 console.log('hello, world');
 ```
