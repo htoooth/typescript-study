@@ -9,4 +9,4 @@ function main() {
   console.log(c.toString() , '=', c.calculate())
 }
 
-main()
+main() 
